@@ -1,0 +1,254 @@
+*{
+margin:0px;
+padding:0px; /*先删除默认的内外边距*/
+}
+body{
+	background-color:#fafafa;
+}
+/*顶部导航栏*/
+li{
+	list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.top{
+height:100px;
+background-color: #fff;
+}
+.top-inner{
+  height:100px;
+  width: 1200px;
+  margin:0 auto;
+}
+.top-left{
+  width: 450px;
+  height: 100px;
+  float: left;
+}
+.top-left img{
+height: 100px;
+width: 223px;
+
+}
+.top-right{
+  width: 750px;
+  height: 100px;
+  float: right;
+}
+.top-right li{
+
+	list-style: none;
+	float: right;
+  padding:0 10px;
+}
+.top-right a{
+   color: black;
+   text-decoration: none;
+   line-height: 100px;
+   padding:0 10px;
+   font-size: 20px;
+}
+.top-right a:hover{
+   color: skyblue;
+
+}
+
+/*顶部部分结束*/
+
+/*banner部分开始*/
+ .banner{margin-bottom:100px;
+       background:url(../images/banner.jpg) no-repeat top center;  
+       height:620px;
+  }
+
+/*banner部分结束*/
+
+/*服务部分开始*/
+.fw{
+   width: 1200px;
+   margin:0 auto 100px;
+   height:850px;
+
+}
+.fwtop{
+    height: 149px;
+    border-top:1px solid #ccc;
+    margin:0px 20px 100px;
+    text-align: center; 
+ }
+ .fwtop .tupian{
+ 	margin-top: -15px;
+ }
+.fwtop img{
+    width: 167px;
+    height: 47px;
+}
+.fwtop p{
+  font-size: 20px;
+  text-indent: 2em;
+   font-family: "微软雅黑";
+   margin-top: 30px;
+}
+.fwbottom{
+ height: 600px;
+}
+
+.fwbottom li{
+   float:left;
+   width: 300px;
+   height: 600px;
+   margin-right: 150px;
+   text-align: center;
+}
+.fwbottom img{
+  width:300px;
+height:200px;
+
+}
+.fwbottom .es{
+
+	margin-right: 0px;
+}
+.fwbottom h3{
+	margin-top: 50px;
+}
+.fwbottom p{
+	text-indent: 2em;
+	font-size: 20px;
+	margin: 30px 0px;
+}
+.fwbottom a{
+   text-decoration: none;
+   font-size: 20px;
+   display: block;
+   color: orange;
+   width: 100px;
+   height: 60px;
+   border:2px orange solid;
+   margin: 5px auto 0px;
+   line-height: 60px;
+}
+
+/*服务部分结束*/
+
+/*经典案例部分开始*/
+.jd{
+  width: 1200px;
+  height: 500px;
+margin: 0px auto 100px;
+
+}
+.jd .jdtop{
+	width: 1200px;
+	height: 100px;
+border-top: 1px solid #ccc;
+margin-bottom: 20px;
+}
+.jdtop .tupian{
+	width: 167px;
+	height:45px;
+   margin:-20px auto 0px;
+}
+
+.jdbt{
+  width: 1200px;
+  margin: 0 auto;
+  height: 380px;
+}
+.jdbt li{
+    float: left;
+    margin-right: 117px;
+    
+}
+.jdbt img{
+	width: 322px;
+	height: 211px;
+}
+.jdbt .es{
+
+	margin-right: 0px;
+}
+/*经典案例部分结束*/
+
+/*经典案例2部分开始*/
+.jd2{
+width: 1200px;
+height: 400px;
+margin: 0 auto 200px;
+}
+.jd2 .jd2top{
+  width: 1200px;
+  height: 90px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.jd2top img{
+	margin: -15px 0 0 0;
+}
+.jd2bt{
+	height: 300px;
+	width: 1200px;
+}
+.jd2bt li{
+   width: 230px;
+   height: 98px;
+   border-bottom: 1px dashed #ccc;
+   border-right: 1px dashed #ccc;
+   float:left;
+}
+.jd2bt img{
+width: 210px;
+height: 90px;
+}
+.jd2bt .es{
+  border-right: 0;
+}
+
+
+/*经典案例2部分结束*/
+
+
+/*footer开始*/
+.footer{
+
+  height: 200px;
+  background-color: black;
+}
+
+.ftinner{
+   border: 1px solid black;
+  width: 1200px;
+  height: 200px;
+  margin:0 auto;
+}
+.fttop{
+  width: 1100px;
+  margin:40px auto 0;
+   height:80px; 
+   text-align: center;
+}
+.fttop li{
+float: left;
+font-size: 20px;
+border-right: 1px solid white;
+font-weight: 700;
+padding-left: 10px;
+padding-right: 10px;
+}
+.fttop a{
+  color: white;
+}
+.ftbt { width: 1100px;
+margin:0 auto; 
+text-align: center;}
+.ftbt span{
+  font-size: 10px;
+  color: #ccc;
+  padding:0 10px;
+}
+.ftbt .left{
+  border-right: 1px solid #ccc;
+}
+/*footer结束*/
